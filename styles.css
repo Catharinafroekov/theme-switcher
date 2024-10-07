@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
+    background-color: var(--body-bg-col);
 
 }
 
@@ -16,12 +17,21 @@ body[data-theme="dark"] {
     --header-bg-col: #333;
     --text-color: #fff;
     --footer-bg-col: #222;
+    --body-bg-col: rgb(84, 82, 80);
 }
 
 body[data-theme="hawaii"] {
     --header-bg-col: #f1e09a;
     --text-color: #3c563c;
     --footer-bg-col: #f8a8d0;
+    --body-bg-col: rgb(162, 238, 242);
+}
+
+body[data-theme="girlypops"] {
+    --header-bg-col: #e870c4;
+    --text-color: #ffffff;
+    --footer-bg-col: #eb5656;
+    --body-bg-col: pink;
 }
 
 header {
