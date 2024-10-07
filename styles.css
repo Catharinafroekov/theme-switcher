@@ -1,0 +1,51 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+body[data-theme="light"] {
+    --header-bg-col: #f4f4f4;
+    --text-color: #000;
+    --footer-bg-col: #ddd;
+}
+
+body[data-theme="dark"] {
+    --header-bg-col: #333;
+    --text-color: #fff;
+    --footer-bg-col: #222;
+}
+
+body[data-theme="hawaii"] {
+    --header-bg-col: #f1e09a;
+    --text-color: #3c563c;
+    --footer-bg-col: #f8a8d0;
+}
+
+header {
+    background-color: var(--header-bg-col);
+    padding: 20px;
+    text-align: center;
+    color: var(--text-color);
+}
+
+main {
+    padding: 20px;
+    color: var(--text-color);
+
+}
+
+footer {
+    background-color: var(--footer-bg-col);
+    padding: 10px;
+    color: var(--text-color);
+}
+
+select{
+    background-color: #fff;
+    color: #222;
+    padding: 10px;
+    border-radius: 20px;
+}
